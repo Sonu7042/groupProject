@@ -6,10 +6,64 @@
     <title>Landing Page</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    Hello world 
-    hellow rohit verma 
+<body class="bg-gray-100">
 
-    hell sonu singh
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-600">monika's group</a>
+            <div class="space-x-6 hidden md:flex">
+                <a href="#" class="text-gray-700 hover:text-blue-500">Home</a>
+                <a href="#" class="text-gray-700 hover:text-blue-500">Services</a>
+                <a href="#" class="text-gray-700 hover:text-blue-500">About</a>
+                <a href="#" class="text-gray-700 hover:text-blue-500">Contact</a>
+            </div>
+           <div class="flex gap-6">
+            <a href="signup.html" class="hidden md:block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                SignUp
+            </a>
+            <a href="login.html" class="hidden md:block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                Login
+            </a>
+           </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-blue-500 text-white text-center py-20">
+        <h1 class="text-4xl font-bold">Build Your Online Presence</h1>
+        <p class="mt-2 text-lg">We create modern and responsive websites to grow your business.</p>
+        <a href="#" class="mt-6 inline-block bg-white text-blue-500 px-6 py-3 rounded-lg shadow-md font-semibold hover:bg-gray-100">
+            Get Started
+        </a>
+    </header>
+
+    <!-- Services Section -->
+    <section class="container mx-auto px-6 py-16">
+        <h2 class="text-3xl font-bold text-center text-gray-800">Our Services</h2>
+        <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Card 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <h3 class="text-xl font-semibold">Web Development</h3>
+                <p class="mt-2 text-gray-600">We create stunning and fast websites.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <h3 class="text-xl font-semibold">SEO Optimization</h3>
+                <p class="mt-2 text-gray-600">Rank higher and get more visitors.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                <h3 class="text-xl font-semibold">Marketing Strategy</h3>
+                <p class="mt-2 text-gray-600">Grow your audience with targeted ads.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white text-center py-6">
+        <p>&copy; 2025 BrandName. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
